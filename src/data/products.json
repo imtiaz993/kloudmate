@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Free",
+    "subtitle": "All the basic features. Great for solo developers.",
+    "product_key": "",
+    "price": 0,
+    "features": [
+      ["Logs", "5GB"],
+      ["Traces", "5GB"],
+      ["Metrics", "10k"],
+      ["Data retention", "7 days"],
+      "Unlimited users",
+      "10 Alarms",
+      "Community support"
+    ],
+    "overage": {
+      "logs": 1,
+      "traces": 5,
+      "metrics": 0.1
+    }
+  },
+  {
+    "name": "Starter",
+    "subtitle": "Perfect for growing businesses with smaller workloads.",
+    "product_key": {
+      "monthly": 0,
+      "yearly": 0
+    },
+    "price": {
+      "monthly": 60,
+      "yearly": 48
+    },
+    "frequency": "monthly",
+    "features": [
+      ["Logs", "20GB"],
+      ["Traces", "20GB"],
+      ["Metrics", "1mil"],
+      ["Data retention", "15 days"],
+      "Unlimited users",
+      "20 Alarms",
+      "Email support"
+    ],
+    "overage": {
+      "logs": 1,
+      "traces": 5,
+      "metrics": 0.1
+    }
+  },
+  {
+    "name": "Pro",
+    "subtitle": "For production environments with large workloads.",
+    "product_key": "",
+    "price": {
+      "monthly": 300,
+      "yearly": 250
+    },
+    "features": [
+      ["Logs", "100GB"],
+      ["Traces", "100GB"],
+      ["Metrics", "10mil"],
+      ["Data retention", "30 days"],
+      "Unlimited users",
+      "100 Alarms",
+      "Email & Chat support"
+    ],
+    "overage": {
+      "logs": 1,
+      "traces": 5,
+      "metrics": 0.1
+    },
+    "recommended": true
+  },
+  {
+    "name": "Business",
+    "subtitle": "Custom pricing according to your business needs.",
+    "product_key": "",
+    "price": {
+      "monthly": "Custom",
+      "yearly": "Custom"
+    },
+    "features": [
+      "Custom pricing",
+      "Custom data retention",
+      "Dedicated account manager",
+      "Integration support",
+      "Chat & Email support"
+    ],
+    "overage": {
+      "logs": 0,
+      "invocations": 0
+    },
+    "custom": true
+  }
+]
